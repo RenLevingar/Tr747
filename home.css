@@ -1,0 +1,68 @@
+/* placing descrption */
+.desc{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+/* placing history */
+.hist{
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.sm{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+/* placing popular info */
+.pop{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+/* makes the home page grid */
+.main{
+   display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: auto;
+    height: auto;
+}
+
+p{
+    text-align: center;
+}
+
+/* page title */
+.title{
+    text-align: center;
+}
+
+/* media for smaller screens */
+@media screen and (max-width: 480px){
+
+    .pop{
+      grid-column: 1/4;
+      grid-row: 3/4;
+    }
+}
+
+/* school image */
+#trPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 2%;
+}
+
+/* creates the center class */
+.center {
+    text-align: center;
+}
+
+/* creates an id that lowers the visibilty of the sign up */
+#lowOP {
+    font-weight: 100;
+}
